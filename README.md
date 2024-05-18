@@ -23,13 +23,13 @@ To run this application, you need to have Flutter installed on your machine. Fol
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/art-generator.git
+   git clone https://github.com/ShubhanginiSharma627/artbot.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd art-generator
+   cd artbot
    ```
 
 3. Run the application:
@@ -39,6 +39,10 @@ To run this application, you need to have Flutter installed on your machine. Fol
    ```
 
 ## Recording
+
+
+https://github.com/ShubhanginiSharma627/artbot/assets/63640650/996930b0-58a6-4521-a2e8-fbf23c153189
+
 
 
 
