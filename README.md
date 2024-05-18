@@ -1,16 +1,48 @@
-# artbot
+# Art Generator
 
-A new Flutter project.
+Art Generator is a mobile application that allows users to generate art based on text input. Users can input text, which is used to generate an image through an API. They can also choose to overlay the generated image on a picked image from their gallery.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Input text to generate art
+- Overlay-generated art on a picked image
+- View generated art in chat format
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies Used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter for the front-end
+- Dart for the programming language
+- HTTP package for making API requests
+- Image package for image manipulation
+- ImagePicker package for picking images from the gallery
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Setup
+
+To run this application, you need to have Flutter installed on your machine. Follow the Flutter installation guide [here](https://flutter.dev/docs/get-started/install).
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/art-generator.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd art-generator
+   ```
+
+3. Run the application:
+
+   ```bash
+   flutter run
+   ```
+
+## Recording
+
+
+
+## API
+
+This application uses the Eden AI API to generate images based on text input. You need to sign up on the Eden AI website to obtain an API key. Update the `token` variable in the `_generate` home_screen.dart` method with your API key.
+
